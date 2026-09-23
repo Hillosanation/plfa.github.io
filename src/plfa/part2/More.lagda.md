@@ -421,8 +421,7 @@ Here is half the isomorphism between `A` and ``A `× `⊤`` rewritten in the new
 
     from×⊤-case : ∅ ⊢ A `× `⊤ ⇒ A
     from×⊤-case = ƛ z ⇒ case× z
-                          [⟨ x , y ⟩⇒ case⊤ y
-                                        [tt⇒ x ] ]
+                          [⟨ x , y ⟩⇒ x ]
 
 
 ## Translation
