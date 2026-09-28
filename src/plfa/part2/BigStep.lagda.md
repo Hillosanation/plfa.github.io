@@ -312,7 +312,7 @@ to consider.
   Using `δ ⊢ L ⇓ V` and `δ ≈ₑ τ`,
   the induction hypothesis gives us
   `subst τ L —↠ N` and `V ≈ N` for some `N`.
-  So we have shown that `subst σ x —↠ N` and `V ≈ N` for some `N`.
+  So we have shown that `subst σ (` x) —↠ N` and `V ≈ N` for some `N`.
 
 * Case `⇓-lam`.
   We immediately have `subst σ (ƛ N) —↠ subst σ (ƛ N)`
