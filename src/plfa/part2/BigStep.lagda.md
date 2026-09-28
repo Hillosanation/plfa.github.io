@@ -316,7 +316,7 @@ to consider.
 
 * Case `⇓-lam`.
   We immediately have `subst σ (ƛ N) —↠ subst σ (ƛ N)`
-  and `clos (subst σ (ƛ N)) γ ≈ subst σ (ƛ N)`.
+  and `clos (ƛ N) γ ≈ subst σ (ƛ N)`.
 
 * Case `⇓-app`.
   Using `γ ⊢ L ⇓ clos (ƛ N) δ` and `γ ≈ₑ σ`,
