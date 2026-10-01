@@ -402,7 +402,7 @@ we'll name `v`. Then for the second application,
 `f` must map `v` to some value. Let's name it `w`. So the function's
 table must include two entries, both `u ↦ v` and `v ↦ w`. For each
 application of the table, we extract the appropriate entry from it
-using the `sub` rule.  In particular, we use `the ⊑-conj-R1` and
+using the `sub` rule.  In particular, we use the `⊑-conj-R1` and
 `⊑-conj-R2` to select `u ↦ v` and `v ↦ w`, respectively, from the table
 `u ↦ v ⊔ v ↦ w`. So the meaning of twoᶜ is that it takes this table
 and parameter `u`, and it returns `w`.  Indeed we derive this as
