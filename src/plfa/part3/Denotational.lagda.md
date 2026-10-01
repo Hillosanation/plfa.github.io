@@ -563,7 +563,7 @@ Denotational equality is an equivalence relation.
                         (λ z → proj₂ (eq1 γ v) (proj₂ (eq2 γ v) z)) ⟩
 ```
 
-Two terms `M` and `N` are denotational equal when their denotations are
+Two terms `M` and `N` are denotationally equal when their denotations are
 equal, that is, `ℰ M ≃ ℰ N`.
 
 The following submodule introduces equational reasoning for the `≃`
