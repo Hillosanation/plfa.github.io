@@ -1093,7 +1093,7 @@ The crux of the proof is the case for `⊑-trans`.
         u₁ ⊑ u₂
 
 By the induction hypothesis for `u₁ ⊑ u`, we know
-that `v ↦ w factors u into u′`, for some value `u′`,
+that `v ↦ w` factors `u` into `u′`, for some value `u′`,
 so we have `all-funs u′` and `u′ ⊆ u`.
 By the induction hypothesis for `u ⊑ u₂`, we know
 that for any `v′ ↦ w′ ∈ u`, `v′ ↦ w′` factors `u₂` into `u₃`.
